@@ -5,8 +5,6 @@ pipeline{
  options{
    timestamps()
  }
- environment{
- }
  stages{
    stage('Print Job Name'){
     steps{
